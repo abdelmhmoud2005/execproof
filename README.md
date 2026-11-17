@@ -5,7 +5,7 @@
 ExecProof is a safe-by-design Python CLI that detects and **proves** OS command injection / RCE in web applications. It combines DAST — arithmetic canaries, nested-echo pairs, blind timing, OOB callbacks and SSTI escalation — with SAST (41 rules, 7 languages), then verifies impact by running `id` / `whoami` only after a finding is confirmed.
 
 [![CI](https://github.com/abdelmhmoud2005/execproof/actions/workflows/ci.yml/badge.svg)](https://github.com/abdelmhmoud2005/execproof/actions/workflows/ci.yml)
-![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Design principles

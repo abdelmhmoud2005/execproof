@@ -7,7 +7,7 @@ name = "execproof"
 version = "0.2.0"
 description = "Safe-by-design DAST + SAST CLI that proves OS command injection (RCE) with real execution evidence — arithmetic canaries, blind timing, OOB callbacks, SSTI escalation and id/whoami impact verification."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "abdelmhmoud2005" }]
 keywords = ["rce", "command-injection", "dast", "sast", "ssti", "security-tools", "pentest", "bugbounty"]
@@ -18,7 +18,6 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
